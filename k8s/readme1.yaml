@@ -1,0 +1,36 @@
+apiVersion: "v1"
+kind: Service
+metadata:
+  name: "readme1"
+ 
+spec:
+  ports:
+    - port: 8000
+      targetPort: 8000
+      protocol: TCP
+  selector:
+    app: "readme1"
+
+---
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: "readme1"
+  labels: 
+    app: "readme1"
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+        app: "readme1"
+  template:
+    metadata:
+      labels:
+        app: "readme1"
+    spec:
+      containers:
+        - name: "readme1"
+          image: "vitorta/readme1"
+          ports:
+            - containerPort: 8000

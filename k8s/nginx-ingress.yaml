@@ -1,0 +1,22 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: rotadesafio
+  
+spec:
+  rules:
+  - host: desafio
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: readme1
+          servicePort: 8000
+      - path: /desafio
+        backend:
+          serviceName: readme2
+          servicePort: 8001
+      - path: /hello
+        backend:
+          serviceName: readme3
+          servicePort: 8002
