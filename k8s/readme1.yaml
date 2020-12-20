@@ -4,10 +4,12 @@ metadata:
   name: "readme1"
  
 spec:
+  type: NodePort
   ports:
     - port: 8000
       targetPort: 8000
       protocol: TCP
+      nodePort: 30000
   selector:
     app: "readme1"
 
