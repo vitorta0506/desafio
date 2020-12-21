@@ -14,4 +14,3 @@
     echo "$x" >> ./vitor_$x.txt
     
  done
-
