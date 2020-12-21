@@ -10,4 +10,4 @@ COPY ./web.py ./
 
 EXPOSE 8002
 
-CMD ["python", "web.py"]
+ENTRYPOINT ["python", "web.py"]

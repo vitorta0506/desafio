@@ -1,4 +1,7 @@
 #!/bin/bash
+path=`pwd`
+    echo Gerando arquivos com as Strings ABC no seguinte path $path
+    sleep 2
 i=0
 for x in {A..C} 
 do
