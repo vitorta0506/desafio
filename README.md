@@ -35,4 +35,4 @@ Qual a opção desejada?
 
 Basta escolher uma opção e acompanhar o resultado.
 
-OBS: Todos comandos utilizados no script start.sh estão seprados individualmente dentro da pasta script.
+OBS: Todos comandos utilizados no script start.sh estão separados individualmente dentro da pasta script.
