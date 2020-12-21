@@ -34,3 +34,5 @@ spec:
       containers:
         - name: "readme3"
           image: "vitorta/readme3"
+        - name: "proxy-readme3"
+          image: "vitorta/proxy-readme3"
