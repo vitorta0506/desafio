@@ -2,9 +2,9 @@
 
 Fiz a resolução do desafio utilizando um ambiente kubernets que utilizo para os meus LABS, na resolução do desafio vamos encontrar menções as seguintes URL`s:
 
-- k8s.vtainfo.com.br
-- desafio1.vtainfo.com.br/desafio
-- desafio2.vtainfo.com.br/desafio
+- k8s.vtainfo.com.br:30002
+- desafio1.vtainfo.com.br:30001/desafio
+- desafio2.vtainfo.com.br:30001/desafio
 
 Dividi as tarefas do desafio em pastas de acordo com o nome do arquivo .txt(Readme). Em cada pasta readme temos os arquivos que foram utilizados para subir o container para resolver tal atividade.
 
@@ -24,8 +24,8 @@ Escolhar uma Opção
 
 1. Consumir o arquivo desafio.tar
 2. Script que imprima a string ABC
-3. Server Name 1 - Get na URL desafio1.vtainfo.com.br/desafio
-4. Server Name 2 - Get na URL desafio2.vtainfo.com.br/desafio
+3. Server Name 1 - Get na URL desafio1.vtainfo.com.br:30001/desafio
+4. Server Name 2 - Get na URL desafio2.vtainfo.com.br:30001/desafio
 5. Hello World Python
 6. Hello World Python pelo NGINX
 7. Sair do menu
